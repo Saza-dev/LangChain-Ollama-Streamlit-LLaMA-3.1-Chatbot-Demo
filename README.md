@@ -17,3 +17,26 @@ A minimal chatbot demo that integrates **LangChain**, **Ollama**, and **Streamli
 
 ## 🚀 Getting Started
 
+1. Clone the repository:
+ ```
+https://github.com/Saza-dev/LangChain-Ollama-Streamlit-LLaMA-3.1-Chatbot-Demo.git
+ ```
+2. Install Dependencies:
+   Make sure you’re using Python 3.9 or later.
+  ```
+pip install -r requirements.txt
+  ```
+3. Setup Environment Variables
+   Create a .env file in the project root:
+ ```
+LANGCHAIN_API_KEY=your_langchain_api_key
+LANGCHAIN_PROJECT=your_project_name
+ ```
+4. Install and Run Ollama with LLaMA 3.1
+```
+ollama run llama3.1
+```
+5. Run the App
+```
+streamlit run app.py
+```
